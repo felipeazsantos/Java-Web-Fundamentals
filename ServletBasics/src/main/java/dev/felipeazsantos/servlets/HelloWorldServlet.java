@@ -7,7 +7,9 @@ import jakarta.servlet.GenericServlet;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
+import jakarta.servlet.annotation.WebServlet;
 
+@WebServlet(urlPatterns = "/hello")
 public class HelloWorldServlet extends GenericServlet {
 
 	@Override
