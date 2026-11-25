@@ -1,0 +1,86 @@
+# ==========================================
+# Eclipse & WTP (Web Tools Platform)
+# ==========================================
+.metadata/
+.settings/
+.classpath
+.project
+*.launch
+.apt_generated/
+.apt_generated_tests/
+.factorypath
+
+# ==========================================
+# Compilação & Build (Java / Web)
+# ==========================================
+bin/
+build/
+target/
+out/
+*.class
+
+# ==========================================
+# Pacotes Java & Web Archives
+# ==========================================
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ==========================================
+# Logs e Arquivos Temporários
+# ==========================================
+*.log
+hs_err_pid*
+replay_pid*
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# ==========================================
+# Gerenciadores de Dependência (caso utilize)
+# ==========================================
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Gradle
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# ==========================================
+# Sistema Operacional
+# ==========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+@"
+.metadata/
+.settings/
+.classpath
+.project
+*.launch
+bin/
+build/
+target/
+out/
+*.class
+*.war
+*.ear
+*.log
+.DS_Store
+Thumbs.db
+"@ | Out-File -FilePath .gitignore -Encoding utf8
